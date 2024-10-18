@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Adoption</title>
+</head>
+<body>
+    <header>
+        <h1>Pet Adoption Application</h1>
+    </header>
+         <div>
+              <img src="Dog.jpg" alt="dog" width="300">
+        </div>
+            <form action="Personal" method="post">
+                    <fieldset>
+                        <legend>Personal Information</legend>
+
+                        <label for="fname">Full Name:</label>
+                        <input type="text" name="fname" id="fname" required><br><br>
+
+                        <label for="email">Email:</label>
+                        <input type="text" name="email" id="email" required><br> <br>
+                    
+                        <label for="Phone">Phone:</label>
+                        <input type="text" name="Phone" id="Phone" required><br> <br>
+                    
+                    </fieldset>
+            </form>
+            <form action="pet" method="post">
+                    <fieldset>
+                        <legend>Pet Preference</legend>
+                        <label for="pet type">Type of Pet:</label>
+                            <select name="pet type" id="pet type">
+                            <option value="Select one">Select one</option>
+                            <option value="Dog">Dog</option>
+                            <option value="Cat">Cat</option>
+                            <option value="Bird">Bird</option>
+                            <option value="Other">Other</option>
+                            </select>
+                            <br><br>
+            <label >Age Range:</label><br>
+
+            <input type="radio" name="age" id="Young" value="Young" required>
+            <label for="Young">Young</label><br>
+            
+            <input type="radio" name="age" id="Adult" value="Adult" required>
+            <label for="Adult">Adult</label><br>
+
+            <input type="radio" name="age" id="Senior" value="Senior" required>
+            <label for="Senior">Senior</label><br><br>
+
+
+            <label for="message">Why do you want to adopt a pet?</label><br>
+            <textarea name="message" id="message" rows="4" cols="50"></textarea>
+<br>
+                    </fieldset><br>
+
+<input type="submit" value="Submit Application">
+            </form>
+            <h2>Watch Cute Puppy Videos</h2>
+            <video height="240" width="320" controls >
+                <source src="3191251-uhd_4096_2160_25fps.mp4" type="video/mp4">
+              
+              </video>
+              
+</body>
+</html>
